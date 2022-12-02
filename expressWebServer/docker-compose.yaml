@@ -1,0 +1,15 @@
+version: '1.0'
+
+services:
+ devops:
+  image: ostfrost420/express
+  build:
+   context: .
+   dockerfile: ./dockerfile
+  ports:
+   - "5000:5000"
+networks:
+    default:
+        name: web
+        external: true
+    

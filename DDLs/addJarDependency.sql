@@ -1,0 +1,1 @@
+ADD JAR /home/hadoop/hive/lib/hive-hcatalog-core-3.1.2.jar;
